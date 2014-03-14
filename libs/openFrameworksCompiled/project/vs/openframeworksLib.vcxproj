@@ -230,10 +230,7 @@
     <ClInclude Include="..\..\..\openFrameworks\utils\ofUtils.h" />
     <ClInclude Include="..\..\..\openFrameworks\utils\ofXml.h" />
     <ClInclude Include="..\..\..\openFrameworks\video\ofDirectShowGrabber.h" />
-    <ClInclude Include="..\..\..\openFrameworks\video\ofGstUtils.h" />
-    <ClInclude Include="..\..\..\openFrameworks\video\ofGstVideoPlayer.h" />
     <ClInclude Include="..\..\..\openFrameworks\video\ofVideoGrabber.h" />
-    <ClInclude Include="..\..\..\openFrameworks\video\ofVideoPlayer.h" />
     <ClInclude Include="..\..\..\openFrameworks\communication\ofArduino.h" />
     <ClInclude Include="..\..\..\openFrameworks\communication\ofSerial.h" />
   </ItemGroup>
@@ -293,10 +290,7 @@
     <ClCompile Include="..\..\..\openFrameworks\utils\ofUtils.cpp" />
     <ClCompile Include="..\..\..\openFrameworks\utils\ofXml.cpp" />
     <ClCompile Include="..\..\..\openFrameworks\video\ofDirectShowGrabber.cpp" />
-    <ClCompile Include="..\..\..\openFrameworks\video\ofGstUtils.cpp" />
-    <ClCompile Include="..\..\..\openFrameworks\video\ofGstVideoPlayer.cpp" />
     <ClCompile Include="..\..\..\openFrameworks\video\ofVideoGrabber.cpp" />
-    <ClCompile Include="..\..\..\openFrameworks\video\ofVideoPlayer.cpp" />
     <ClCompile Include="..\..\..\openFrameworks\communication\ofArduino.cpp" />
     <ClCompile Include="..\..\..\openFrameworks\communication\ofSerial.cpp" />
   </ItemGroup>
