@@ -1,0 +1,5 @@
+addons/*
+libs/openFrameworksCompiled/project/vs/x64/*
+libs/openFrameworksCompiled/project/vs/obj/*
+*.obj
+apps/*
