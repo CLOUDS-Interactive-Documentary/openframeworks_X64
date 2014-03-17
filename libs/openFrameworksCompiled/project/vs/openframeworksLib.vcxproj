@@ -99,7 +99,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\..\..\libs\openFrameworks;..\..\..\..\libs\openFrameworks\graphics;..\..\..\..\libs\openFrameworks\app;..\..\..\..\libs\openFrameworks\sound;..\..\..\..\libs\openFrameworks\utils;..\..\..\..\libs\openFrameworks\communication;..\..\..\..\libs\openFrameworks\video;..\..\..\..\libs\openFrameworks\types;..\..\..\..\libs\openFrameworks\math;..\..\..\..\libs\openFrameworks\3d;..\..\..\..\libs\openFrameworks\gl;..\..\..\..\libs\openFrameworks\events;..\..\..\..\libs\freeglut\include;..\..\..\..\libs\rtAudio\include;..\..\..\..\libs\quicktime\include;..\..\..\..\libs\freetype\include;..\..\..\..\libs\freetype\include\freetype2;..\..\..\..\libs\freeImage\include;..\..\..\..\libs\fmodex\include;..\..\..\..\libs\videoInput\include;..\..\..\..\libs\glew\include\;..\..\..\..\libs\glu\include;..\..\..\..\libs\tess2\include;..\..\..\..\libs\openssl\include;..\..\..\..\libs\poco\include;..\..\..\..\libs\glfw\include;..\..\..\..\libs\gstreamer\include;..\..\..\..\libs\gstreamer\include\glib-2.0;..\..\..\..\libs\gstreamer\include\gstreamer-0.10;..\..\..\..\libs\gstreamer\include\libxml2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\libs\openFrameworks;..\..\..\..\libs\openFrameworks\graphics;..\..\..\..\libs\openFrameworks\app;..\..\..\..\libs\openFrameworks\sound;..\..\..\..\libs\openFrameworks\utils;..\..\..\..\libs\openFrameworks\communication;..\..\..\..\libs\openFrameworks\video;..\..\..\..\libs\openFrameworks\types;..\..\..\..\libs\openFrameworks\math;..\..\..\..\libs\openFrameworks\3d;..\..\..\..\libs\openFrameworks\gl;..\..\..\..\libs\openFrameworks\events;..\..\..\..\libs\freeglut\include;..\..\..\..\libs\quicktime\include;..\..\..\..\libs\freetype\include;..\..\..\..\libs\freetype\include\freetype2;..\..\..\..\libs\freeImage\include;..\..\..\..\libs\fmodex\include;..\..\..\..\libs\videoInput\include;..\..\..\..\libs\glew\include\;..\..\..\..\libs\glu\include;..\..\..\..\libs\tess2\include;..\..\..\..\libs\openssl\include;..\..\..\..\libs\poco\include;..\..\..\..\libs\glfw\include;..\..\..\..\libs\gstreamer\include;..\..\..\..\libs\gstreamer\include\glib-2.0;..\..\..\..\libs\gstreamer\include\gstreamer-0.10;..\..\..\..\libs\gstreamer\include\libxml2</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;POCO_STATIC;CAIRO_WIN32_STATIC_BUILD;DISABLE_SOME_FLOATING_POINT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -143,7 +143,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <WholeProgramOptimization>false</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\..\..\..\libs\openFrameworks;..\..\..\..\libs\openFrameworks\graphics;..\..\..\..\libs\openFrameworks\app;..\..\..\..\libs\openFrameworks\sound;..\..\..\..\libs\openFrameworks\utils;..\..\..\..\libs\openFrameworks\communication;..\..\..\..\libs\openFrameworks\video;..\..\..\..\libs\openFrameworks\types;..\..\..\..\libs\openFrameworks\math;..\..\..\..\libs\openFrameworks\3d;..\..\..\..\libs\openFrameworks\gl;..\..\..\..\libs\openFrameworks\events;..\..\..\..\libs\freeglut\include;..\..\..\..\libs\rtAudio\include;..\..\..\..\libs\quicktime\include;..\..\..\..\libs\freetype\include;..\..\..\..\libs\freetype\include\freetype2;..\..\..\..\libs\freeImage\include;..\..\..\..\libs\fmodex\include;..\..\..\..\libs\videoInput\include;..\..\..\..\libs\glew\include\;..\..\..\..\libs\glu\include;..\..\..\..\libs\tess2\include;..\..\..\..\libs\openssl\include;..\..\..\..\libs\poco\include;..\..\..\..\libs\glfw\include;..\..\..\..\libs\gstreamer\include;..\..\..\..\libs\gstreamer\include\glib-2.0;..\..\..\..\libs\gstreamer\include\gstreamer-0.10;..\..\..\..\libs\gstreamer\include\libxml2</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\libs\openFrameworks;..\..\..\..\libs\openFrameworks\graphics;..\..\..\..\libs\openFrameworks\app;..\..\..\..\libs\openFrameworks\sound;..\..\..\..\libs\openFrameworks\utils;..\..\..\..\libs\openFrameworks\communication;..\..\..\..\libs\openFrameworks\video;..\..\..\..\libs\openFrameworks\types;..\..\..\..\libs\openFrameworks\math;..\..\..\..\libs\openFrameworks\3d;..\..\..\..\libs\openFrameworks\gl;..\..\..\..\libs\openFrameworks\events;..\..\..\..\libs\freeglut\include;..\..\..\..\libs\quicktime\include;..\..\..\..\libs\freetype\include;..\..\..\..\libs\freetype\include\freetype2;..\..\..\..\libs\freeImage\include;..\..\..\..\libs\fmodex\include;..\..\..\..\libs\videoInput\include;..\..\..\..\libs\glew\include\;..\..\..\..\libs\glu\include;..\..\..\..\libs\tess2\include;..\..\..\..\libs\openssl\include;..\..\..\..\libs\poco\include;..\..\..\..\libs\glfw\include;..\..\..\..\libs\gstreamer\include;..\..\..\..\libs\gstreamer\include\glib-2.0;..\..\..\..\libs\gstreamer\include\gstreamer-0.10;..\..\..\..\libs\gstreamer\include\libxml2</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;POCO_STATIC;CAIRO_WIN32_STATIC_BUILD;DISABLE_SOME_FLOATING_POINT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader>
@@ -209,7 +209,6 @@
     <ClInclude Include="..\..\..\openFrameworks\sound\ofBaseSoundPlayer.h" />
     <ClInclude Include="..\..\..\openFrameworks\sound\ofBaseSoundStream.h" />
     <ClInclude Include="..\..\..\openFrameworks\sound\ofFmodSoundPlayer.h" />
-    <ClInclude Include="..\..\..\openFrameworks\sound\ofRtAudioSoundStream.h" />
     <ClInclude Include="..\..\..\openFrameworks\sound\ofSoundPlayer.h" />
     <ClInclude Include="..\..\..\openFrameworks\sound\ofSoundStream.h" />
     <ClInclude Include="..\..\..\openFrameworks\types\ofBaseTypes.h" />
@@ -273,7 +272,6 @@
     <ClCompile Include="..\..\..\openFrameworks\math\ofVec2f.cpp" />
     <ClCompile Include="..\..\..\openFrameworks\math\ofVec4f.cpp" />
     <ClCompile Include="..\..\..\openFrameworks\sound\ofFmodSoundPlayer.cpp" />
-    <ClCompile Include="..\..\..\openFrameworks\sound\ofRtAudioSoundStream.cpp" />
     <ClCompile Include="..\..\..\openFrameworks\sound\ofSoundPlayer.cpp" />
     <ClCompile Include="..\..\..\openFrameworks\sound\ofSoundStream.cpp" />
     <ClCompile Include="..\..\..\openFrameworks\types\ofBaseTypes.cpp" />
