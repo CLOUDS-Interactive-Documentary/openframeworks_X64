@@ -5,10 +5,6 @@
 #include "ofBaseTypes.h"
 #include "ofTypes.h"
 
-//使用gstreamer的话加这2行
-#define OF_VIDEO_PLAYER_GSTREAMER
-#undef	OF_VIDEO_PLAYER_QUICKTIME
-
 #ifdef OF_VIDEO_PLAYER_GSTREAMER
 	#include "ofGstVideoPlayer.h"
 	#define OF_VID_PLAYER_TYPE ofGstVideoPlayer
@@ -22,6 +18,11 @@
 #ifdef OF_VIDEO_PLAYER_QTKIT
 	#include "ofQTKitPlayer.h"
 	#define OF_VID_PLAYER_TYPE ofQTKitPlayer
+#endif
+
+#ifdef OF_VIDEO_PLAYER_DIRECTSHOW
+	#include "ofDirectShowPlayer.h"
+	#define OF_VID_PLAYER_TYPE ofDirectShowPlayer
 #endif
 
 #ifdef OF_VIDEO_PLAYER_IOS
